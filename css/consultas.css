@@ -1,0 +1,125 @@
+.dia {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.dia__titulo {
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-weight: 700;
+    width: 100vw;
+    padding-left: 16px;
+}
+
+.dia__consulta {
+    margin: 16px;
+    background-color: var(--fundo-secundario);
+    border-radius: 8px;
+    height: 170px;
+    width: 328px;
+}
+
+.dia__consulta__dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--borda);
+    height: 69px;
+}
+
+.dados__foto {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    margin: 16px;
+}
+
+.dados__nome {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.dados__tipo {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dados__icone {
+    background-color: var(--fundo-primario);
+    padding: 6px;
+    color: var(--azul);
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.dia__consulta__marcada{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 16px;
+}
+
+.marcada__horario {
+    color: var(--cinza-escuro);
+    font-weight: 500px;
+}
+
+.marcada__botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marcada__botao {
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--fundo-secundario);
+}
+
+.video{
+    background-color: var(--amarelo);
+}
+
+.audio {
+    background-color: var(--fundo-secundario);
+    color: var(--cinza-escuro);
+    border: 1px solid var(--borda);
+}
+
+.endereco {
+    background-color: var(--azul);
+    padding: 16px 100px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .dia {
+        margin-left: 170px;
+    }
+
+    .dia__titulo {
+        padding-left: 33px;
+    }
+
+    .dia__consulta {
+        margin-left: 33px;
+    }
+       
+}
+
+@media screen and (min-width: 1440px) {
+
+    .dia__consulta {
+        margin: 48px 0 0 54px;
+    }
+       
+}

@@ -1,0 +1,26 @@
+@import url("css/cabecalho.css");
+@import url("css/avatar.css");
+@import url("css/consultas.css");
+@import url("css/rodape.css");
+@import url("css/nova-consulta.css");
+@import url("css/formulario.css");
+
+:root {
+    --fundo-primario: #F6F6F6;
+    --fundo-secundario: #FFFFFF;
+    --azul: #4894FF;
+    --amarelo: #FFB050;
+    --preto: #333333;
+    --cinza-escuro: #464646;
+    --cinza-claro: #A3A3A3;
+    --borda: #ECECEC;
+    --font: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--fundo-primario);
+    font-family: var(--font);
+    color: var(--cinza-claro);
+    font-size: 12px;
+    font-weight: 400;
+}

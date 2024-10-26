@@ -1,0 +1,28 @@
+.cabecalho {
+    background-color: var(--fundo-secundario);
+    height: 33px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.cabecalho__horas {
+    color: var(--preto);
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.cabecalho__icone {
+    color: var(--preto);
+    margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        display: none;
+    }
+}

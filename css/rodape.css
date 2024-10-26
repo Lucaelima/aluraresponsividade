@@ -1,0 +1,52 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    z-index: 2;
+}
+.rodape__navagacao {
+    height: 58px;
+    width: 100vw;
+    background-color: var(--fundo-secundario);
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;    
+}
+
+.rodape__navegacao__pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atual {
+    color: var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+
+    .rodape__navagacao {
+        height: 100vh;
+        width: 160px;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 0;
+    }
+
+    .rodape__navegacao__pagina {
+        flex-direction: row;
+        gap: 10px;
+        margin: 16px 0 0 16px;
+    }
+
+    .rodape__navegacao__pagina:hover {
+        color: var(--azul);
+    }
+       
+}

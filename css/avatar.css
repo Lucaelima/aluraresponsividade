@@ -1,0 +1,33 @@
+.avatar {
+    height: 111px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    flex-direction: row;
+    margin-top: 33px;
+}
+
+.avatar__imagem {
+    height: 57px;
+    width: 57px;
+    border-radius: 100%;
+    margin: 16px;
+}
+
+.avatar__mensagem-inicial__ola {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--preto);
+    margin-bottom: 10px;
+}
+
+.avatar__mensagem-inicial__consultas {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .avatar{
+        margin-left: 170px;
+    }
+}    

@@ -1,0 +1,66 @@
+.formulario-cadastro {
+    display: none;
+    margin-left: 170px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-cadastro__container {
+    width: 574px;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 62px;
+    background-color: var(--fundo-secundario);
+    margin-bottom: 42px;
+}
+
+.formulario-cadastro__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--preto);
+    margin-bottom: 32px;
+}
+
+.formulario-cadastro__texto {
+    font-size: 14px;
+    font-weight: 500px;
+    color: var(--cinza-escuro);
+    margin-bottom: 4px;
+}
+
+.formulario-cadastro__campo {
+    width: 130px;
+    margin-bottom: 16px;
+    height: 22px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 4px;
+}
+
+.nome {
+    width: auto;
+}
+
+.observacao {
+    width: auto;
+    height: 82px;
+    margin-bottom: 32px;
+}
+
+.formulario-cadastro__botao {
+    background-color: var(--azul);
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--fundo-secundario);
+    border: none;
+}
+
+@media screen and (min-width: 984px) {
+
+    .formulario-cadastro {
+        display: flex;
+    }
+
+}
